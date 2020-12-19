@@ -1,1 +1,2 @@
-# Segregate-various-musical-components-in-a-song
+# Segregating-various-musical-components-in-a-song
+In this project, we segregte human voice, guitar tune and background beats in a song. We take the music audio file in ‘wav’ format and compute its Fourier Transform using the MATLAB commands. Then we find the frequency ranges which capture the human voice and other musical instruments and Reconstruct the signals corresponding to each of these using the audiowrite command in MATLAB. Finally we were able to seperate the various musical components of the song.
